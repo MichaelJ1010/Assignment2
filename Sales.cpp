@@ -7,8 +7,8 @@ int main(){
     double totalTax = estateTax + countryTax;
 
     std:: cout << "Total income made: " << sales << "\n";
-    std:: cout << "Estate tax owed: " << estateTax;
-    std:: cout << "Country tax owed: " << countryTax;
+    std:: cout << "Estate tax owed: " << estateTax << "\n";
+    std:: cout << "Country tax owed: " << countryTax << "\n";
     std:: cout << "Total ammount of taxes owed: " << totalTax;
 
     return 0;
